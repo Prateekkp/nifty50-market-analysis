@@ -1,6 +1,6 @@
 # Nifty 50 Market & Stock Analysis Dashboard (2020–2025)
 
-![Nifty Dashboard](dashboard/screenshorts/nifty50-logo.png)
+![Nifty Dashboard](dashboard/screenshorts/dashboard-thumbnail.png)
 
 ---
 
