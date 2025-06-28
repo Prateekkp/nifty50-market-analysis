@@ -123,7 +123,7 @@ This model enables seamless filtering across time, sector, and stock levels in P
 
 ---
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
 - 🔁 Automate Power BI refresh using Python + Gateway (Using AirFlow)
 - 📈 Add ML-based stock cluster analysis (based on trend/volatility)
@@ -132,7 +132,7 @@ This model enables seamless filtering across time, sector, and stock levels in P
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 **Prateek Kumar Prasad**  
 🎓 B.Tech Data Science | 3rd Year  
