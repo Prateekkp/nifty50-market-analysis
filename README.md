@@ -1,6 +1,6 @@
 # 📈 Nifty 50 Market & Stock Analysis Dashboard (2020–2025)
 
-![Nifty Dashboard](dashboards/screenshots/nifty_market_overview.png)
+![Nifty Dashboard](dashboard/screenshorts/nifty50-logo.png)
 
 ---
 
@@ -40,7 +40,8 @@ The analysis is powered by:
 ```
 nifty50-market-analysis-powerbi/
 ├── data/ # Sample/processed data
-├── scripts/ # Python scripts (fetch, process, MySQL load)
+├── scripts/ # Python scripts (fetch, process)
+├── SQL-Ingestion-scripts/ (MySQL load)
 ├── dashboards/ # Power BI .pbix file & screenshots
 ├── docs/ # NSE docs, references
 ├── README.md # This file
@@ -60,6 +61,24 @@ nifty50-market-analysis-powerbi/
 
 ---
 
+### 🧠 Data Modeling: Star Schema Implementation
+
+The dashboard is powered by a well-designed **Star Schema**, ensuring optimized query performance and clean data relationships. It includes:
+
+- A **Fact Table** for daily Nifty & stock metrics
+- **Dimension Tables** such as:
+  - Calendar (Date)
+  - Companies Info
+  - Stock Metadata
+  - Nifty 50 data
+
+This model enables seamless filtering across time, sector, and stock levels in Power BI.
+
+📸 ![Star Schema Diagram](dashboard/screenshorts/schema.png)
+
+
+---
+
 ## 📌 Key Features
 
 ### Sheet 1: Nifty 50 Market Overview
@@ -71,7 +90,7 @@ nifty50-market-analysis-powerbi/
   - Sector-wise Volume Analysis
 - **Filters**: Year, Month
 
-📸 ![Nifty Overview](dashboards/screenshots/nifty_kpi_area_sector.png)
+📸 ![Nifty Overview](dashboard/screenshorts/sheet-1.png)
 
 ---
 
@@ -82,10 +101,10 @@ nifty50-market-analysis-powerbi/
   - Stock Price over Time
   - Daily Return % by Year
   - Monthly Avg Return
-  - Trading Summary with ✅/❌ symbols (via DAX)
+  - Trading Summary with 🟢/🔴 symbols (via DAX)
 - **Filters**: Stock Name, Year, Month
 
-📸 ![Stock Dashboard](dashboards/screenshots/individual_stock_analysis.png)
+📸 ![Stock Dashboard](dashboard/screenshorts/sheet-2.png)
 
 ---
 
@@ -106,7 +125,7 @@ nifty50-market-analysis-powerbi/
 
 ## 🔮 Future Roadmap
 
-- 🔁 Automate Power BI refresh using Python + Gateway
+- 🔁 Automate Power BI refresh using Python + Gateway (Using AirFlow)
 - 📈 Add ML-based stock cluster analysis (based on trend/volatility)
 - 🗣️ Generate auto-summaries for stocks using NLP
 - ☁️ Deploy dashboard to Power BI Service with user controls
@@ -119,7 +138,7 @@ nifty50-market-analysis-powerbi/
 🎓 B.Tech Data Science | 3rd Year  
 📊 Data Scientist & Analyst
 📧 prateekkumarprasad15@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)
+🔗 [LinkedIn](https://www.linkedin.com/in/prateekkp/)
 
 ---
 
