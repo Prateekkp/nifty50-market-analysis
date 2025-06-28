@@ -1,10 +1,10 @@
-# 📈 Nifty 50 Market & Stock Analysis Dashboard (2020–2025)
+# Nifty 50 Market & Stock Analysis Dashboard (2020–2025)
 
 ![Nifty Dashboard](dashboard/screenshorts/nifty50-logo.png)
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 A complete end-to-end **data analytics pipeline project** focused on the Indian stock market, specifically the **Nifty 50 index** and its constituent stocks from **January 2020 to June 2025**.
 
@@ -17,7 +17,7 @@ This project showcases my ability to:
 
 ---
 
-## 📊 Executive Summary
+## Executive Summary
 
 The Nifty 50 Market Analysis Dashboard helps users understand:
 
@@ -35,7 +35,7 @@ The analysis is powered by:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 nifty50-market-analysis-powerbi/
@@ -49,7 +49,7 @@ nifty50-market-analysis-powerbi/
 ```
 ---
 
-## 🔧 Tools & Technologies Used
+## Tools & Technologies Used
 
 | Tool        | Purpose                          |
 |-------------|----------------------------------|
@@ -61,7 +61,7 @@ nifty50-market-analysis-powerbi/
 
 ---
 
-### 🧠 Data Modeling: Star Schema Implementation
+### Data Modeling: Star Schema Implementation
 
 The dashboard is powered by a well-designed **Star Schema**, ensuring optimized query performance and clean data relationships. It includes:
 
@@ -79,7 +79,7 @@ This model enables seamless filtering across time, sector, and stock levels in P
 
 ---
 
-## 📌 Key Features
+## Key Features
 
 ### Sheet 1: Nifty 50 Market Overview
 
@@ -108,7 +108,7 @@ This model enables seamless filtering across time, sector, and stock levels in P
 
 ---
 
-## 🔍 Key Insights & Observations
+## Key Insights & Observations
 
 ### 📌 Market-Level
 1. **Top Volume Sectors**: Financial Services, Metal & Mining, Oil & Consumables — consistent across 4/5 years.
